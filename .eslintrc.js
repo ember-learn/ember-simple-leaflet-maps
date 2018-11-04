@@ -1,4 +1,8 @@
 module.exports = {
+  globals: {
+    L: true
+  },
+
   root: true,
   parserOptions: {
     ecmaVersion: 2017,
