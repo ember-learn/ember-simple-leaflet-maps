@@ -3,9 +3,9 @@
 module.exports = {
   name: require('./package').name,
 
-  isDevelopingAddon() {
-    return true;
-  },
+  // isDevelopingAddon() {
+  //   return true;
+  // },
 
   contentFor(type, config) {
     let scriptUrl = '';
