@@ -5,7 +5,7 @@
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": "https://github.com/ember-learn/ember-simple-leaflet-maps",
   "license": "MIT",
   "author": "",
   "directories": {
