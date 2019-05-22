@@ -8,7 +8,6 @@ module.exports = {
   // },
 
   contentFor(type, config) {
-    let scriptUrl = '';
     let scriptMarkup = '';
     if (type === 'head-footer') {
       let cssUrl = `${config[this.name].url}/leaflet@${config[this.name].version}/dist/leaflet.css`;
