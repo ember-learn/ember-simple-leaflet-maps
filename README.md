@@ -1,7 +1,10 @@
 ember-simple-leaflet-maps
 ==============================================================================
 
-[Short description of the addon.]
+This addon is used as part of the 
+[Super Rentals Tutorial](https://guides.emberjs.com/release/tutorial/ember-cli/)
+for Ember.js. You can find the sample app for the tutorial
+[here](https://github.com/ember-learn/super-rentals).
 
 Installation
 ------------------------------------------------------------------------------
@@ -14,7 +17,11 @@ ember install ember-simple-leaflet-maps
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+First, get a free [API token from Mapbox](https://www.mapbox.com/account/access-tokens/). Then:
+
+```sh
+LEAFLET_MAPS_API_KEY=<your key here> ember serve
+```
 
 
 Contributing
