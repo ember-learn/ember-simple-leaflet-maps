@@ -11,10 +11,10 @@ export default Service.extend({
       zoom: 13
     });
     L.marker(point).addTo(map);
-    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
       maxZoom: 18,
-      id: 'mapbox.streets',
+      id: 'mapbox/streets-v11',
       accessToken: getOwner(this).resolveRegistration('config:environment')['ember-simple-leaflet-maps'].apiKey
     }).addTo(map);
     schedule('afterRender', () => map.invalidateSize());
