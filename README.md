@@ -1,6 +1,10 @@
 ember-simple-leaflet-maps
 ==============================================================================
 
+This addon was used for teaching older versions of Ember (before v3.14), and is deprecated. This means it will no longer accept PRs and updates, however you can still install this addon from npm if you are learning older versions of Ember.
+
+To view the current supported official Ember tutorial, visit https://guides.emberjs.com/release/tutorial/part-1/.
+
 This addon is used as part of the 
 [Super Rentals Tutorial](https://guides.emberjs.com/release/tutorial/ember-cli/)
 for Ember.js. You can find the sample app for the tutorial
